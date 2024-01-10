@@ -1,0 +1,47 @@
+.process-bar {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.textoCentralizado {
+    text-align: center;
+}
+
+.chartContainer {
+    background-color: aliceblue;
+    overflow-x: auto; /* Adiciona scroll horizontal quando necessário */
+    width: 10000px;
+}
+
+.bar span {
+    font-weight: bold;
+}
+
+.process-label {
+    width: 60px;
+    text-align: center;
+}
+
+.bar-container {
+    display: flex;
+}
+
+.bar {
+    height: 100%;
+}
+
+/* styles.css */
+
+.executing {
+    background-color: green;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.overload {
+    background-color: red;
+    height: 30px;
+    border: 1px solid black;
+}
